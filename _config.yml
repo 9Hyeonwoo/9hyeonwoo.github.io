@@ -21,7 +21,7 @@ resume_contact_telephone:       "010-2939-0156"
 resume_contact_address:         "Gwanak-gu, Seoul"
 
 resume_header_contact_info:     "Gwanak-gu, Seoul • (82)10-2939-0156 • gusdn1397@gmail.com"
-display_header_contact_info:    "false"
+display_header_contact_info:    "true"
 
 resume_header_intro: "<p>One little detail makes difference. Curiosity for ground knowledge is my strength.</p>"
 
