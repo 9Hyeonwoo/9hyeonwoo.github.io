@@ -44,13 +44,6 @@ Kotlin 기반, MVVM 구조, Repository 패턴, Espresso와 okhttp3.mockwebserver
   url: "https://github.com/9Hyeonwoo/auto-reservation"
   description: python을 이용한 테니스 코트 자동 예약 프로그램. selenium을 통해 예약 자동화 구현, multiprocessing을 통해서 동시 예약 성능 개선, tkinter를 이용한 UI 제공.
 
-# Trail Empty Seat Checker
-- project: 기차 빈자리 알림 프로그램
-  role: Private Project
-  duration: 2019.9 &mdash; 2019.9
-  url: "https://github.com/9Hyeonwoo/trail-seat-checker"
-  description: Python을 기반으로 python-telegram-bot, Selenium과 Headless Chrome을 이용한 기차 빈자리 알림 스크립트. 추석 기차를 예매하고 싶은 욕구에 만든 스크립트. 빈자리가 있을시 텔레그램으로 알림을 쏴준다.
-
 # Tennis Reservation Check App
 - project: 테니스 코트 예약 현황 앱
   role: Full Stack Developer, Private Project
