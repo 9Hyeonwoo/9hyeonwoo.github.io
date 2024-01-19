@@ -13,7 +13,7 @@ sidebar:
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: gusdn1397@snu.ac.kr
+    email: gusdn1397@gmail.com
     phone: 
     timezone:
     citizenship:
@@ -57,10 +57,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am an Android Developer at Hyperconnect. 
-      I got a B.S. in Computer Science and Engineering from Seoul National University.
-      I enjoy developing useful service and applying state of the art knowledge to real world.
-      I am interested in the On-Device AI and Optimization. I am making my career toward On-Device AI with my mobile knowlege.
+      I am a developer interested in optimizing to maximize performance within limited resources.  
+      Now, I am working as Android Developer at Hyperconnect.  
+      I got a B.S. in Computer Science and Engineering from Seoul National University.  
+      I am interested in the On-Device AI and Optimization. I am making my career toward On-Device AI with my mobile knowlege.  
+      I enjoy developing useful service and applying state of the art knowledge to real world.  
+      I can handle Java, Kotlin, Android, Spring, C/C++, OpenCL, Python, PyTorch, JS.   
 education:
     title: Education
     info:
@@ -83,34 +85,51 @@ experiences:
         time: Sep 2019 - Present (On Leave of Absence from Aug 2022 to Fed 2024)
         company: Hyperconnect
         details: |
-          Developed Android application of Azar which is live video chat service based on WebRTC.
-          Worked with the Azar team until Mar 2021.
-          From Mar 2021, Transfer to the Video Video Platform as a Service(VPaaS) team developing Android SDK alone.
-          Built Live Streaming SDK structure from base.
-          Expanded the team from three members to around twenty, collectively fostering its growth.
-            - **Azar** : Optimized memory-related problems like memory leak and management of threads incurred by live video chat.
-              Developed social friends recommendation based on profile.
-            - **Live Streaming SDK** : Developed B2B Live Streaming Platform based on WebRTC from base.
-              Provided UI and Live Streaming functions like donation, chat, multiple guests streaming, etc.
+          Developed Android application of Azar which is live video chat service based on WebRTC.  
+          Worked with the Azar team until Mar 2021.  
+          From Mar 2021, Transfer to the Video Video Platform as a Service(VPaaS) team developing Live Streaming Android SDK starting from alone.  
+          Built Live Streaming SDK structure from base.  
+          Expanded the team from three to around twenty members with good work culture.  
+            - **Azar** : Live video chat application using WebRTC.  
+              It has short of memory and resource problem causing crashes in the application.  
+              I optimized memory-related problems like memory leak and management of threads incurred by live video chat.  
+              I developed new features like social network feature based on user preference.  
+            - **Live Streaming SDK** : B2B Live Streaming Platform SDK.   
+              It provided UI and Live Streaming functions like donation, chat, multiple guests streaming, etc.  
+              I built the Android SDK from base by alone.  
+              Main concerns was to support many devices as possible with stability.  
+              Optimized the memory usage and the logic for lower latency.  
+              I modulized the components to build various combinations by the customer.  
+              Mainly handled video and audio for the live streaming features.  
       - role: Android Developer
         time: Nov 2018 - Sep 2019
         company: MVL
         details: |
-          Developed Android application of TADA service. TADA is ride hailing service served on the South-East Asia like Singapore, Vietnam and Cambodia.
-          Handled mainly real-time location tracking features.
+          Developed Android application of TADA service. TADA is ride-hailing service served on the South-East Asia like Singapore, Vietnam and Cambodia.  
+          Handled mainly real-time location tracking features and collecting data from sensors.
 
 projects:
     title: Projects
     intro: >
-      Interested with On-Device AI and Optimization of ML. Enjoyed Sharing convient service with people. 
+      Interested with On-Device AI and Optimization of ML. Enjoyed making convient service on the limited resources. 
     assignments:
       - title: The Optimization of Stable Diffusion based on the Mobile
         link: "assets/res/Optimization_Stable_Diffusion_Mobile.pdf"
-        tagline: "Porting Stable Diffusion V2.1 written with PyTorch to OpenCL with Android NDK C++. Applied optimizations appropriate with mobile SoC enviroment."
+        tagline: Porting Stable Diffusion V2.1 written with PyTorch to OpenCL with Android NDK C++ from base.   
+          Applied optimizations appropriate with mobile SoC enviroment.  
+          Target device was S21 Exynos 2100 with Mali-G78 M14.  
+          Without quantization, FP32 model has about 5.2 GB.  
+          To solve memory issues, divided the model into parts with about 1 GB.  
+          Resolved Memory shortage due to Residual mapping of U-Net.  
+          Optimized with reduction, usage of local & register memory and im2win 2D convolution.  
+          <a href="https://github.com/9Hyeonwoo/mobile-stable-diffusion" target="_blank">github repository</a>
 
       - title: TennisTime
         link: "https://tennistime.me"
-        tagline: "Provided an easy and convenient way to check and make the reservations in my university. To run in free-tier instance optimized resource usage. Based on Spring-Boot with Reactor and Mongo-DB. Having about 700 active users"
+        tagline: "Provided an easy and convenient way to check and make the reservations in my university.  
+        To run in free-tier instance with 1 GB memory, optimized resource usage.  
+        Based on Spring-Boot with Reactor and Mongo-DB.  
+        Having about 700 active users with about 10,000 visits per a month."
 
 # skills:
 #     title: Skills &amp; Proficiency
