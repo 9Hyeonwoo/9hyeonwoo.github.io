@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Hyeonwoo Koo
-    tagline: Android Developer
+    tagline: Android Software Engineer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -57,12 +57,18 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a developer interested in optimizing to maximize performance within limited resources.  
-      Now, I am working as Android Developer at Hyperconnect.  
-      I got a B.S. in Computer Science and Engineering from Seoul National University.  
-      I am interested in the On-Device AI and Optimization. I am making my career toward On-Device AI with my mobile knowlege.  
-      I enjoy developing useful service and applying state of the art knowledge to real world.  
-      I can handle Java, Kotlin, Android, Spring, C/C++, OpenCL, Python, PyTorch, JS.   
+      I am a software engineer passionate about applying AI technology to real-world products and optimizing performance within limited resources.  
+      Currently, I work as an Android Software Engineer at Hyperconnect.  
+      I hold a B.S. in Computer Science and Engineering from Seoul National University.  
+      I continuously study On-Device AI and Optimization to synergize with my Android expertise.  
+      My career goal is to become a Machine Learning Software Engineer, starting with a focus on On-Device AI.  
+      I am proficient in Java, Kotlin and Android development. Additionally, I have sufficient knowledge of Spring, C/C++, OpenCL, Python, PyTorch, and JavaScript to solve engineering problems. I am confident in my ability to absorb and apply any useful technology.
+    # I am a software engineer interested in applying AI techonology to real-world products.  optimizing to maximize performance within limited resources.  
+    # Now, I am working as Android Software Engineer at Hyperconnect.  
+    # I got a B.S. in Computer Science and Engineering from Seoul National University.  
+    # I keep studying on the On-Device AI and Optimization to make leverage with the Android career. I hope to make my career toward Machine Learning Software Engineer with On-Device AI as a starting point.  
+    # I enjoy developing useful service and applying state of the art knowledge to real world.  
+    # I can handle Java, Kotlin, Android, Spring, C/C++, OpenCL, Python, PyTorch and JS. I am confident in my ability to absorb and apply anything useful. 
 education:
     title: Education
     info:
@@ -87,15 +93,15 @@ experiences:
         details: |
           Developed Android application of Azar which is live video chat service based on WebRTC.  
           Worked with the Azar team until Mar 2021.  
-          From Mar 2021, Transfer to the Video Video Platform as a Service(VPaaS) team developing Live Streaming Android SDK starting from alone.  
+          From Mar 2021, Transfer to the Video Platform as a Service(VPaaS) team developing Live Streaming Android SDK starting from alone.  
           Built Live Streaming SDK structure from base.  
           Expanded the team from three to around twenty members with good work culture.  
             - **Azar** : Live video chat application using WebRTC.  
               It has short of memory and resource problem causing crashes in the application.  
               I optimized memory-related problems like memory leak and management of threads incurred by live video chat.  
-              I developed new features like social network feature based on user preference.  
+              I also developed new features like social network feature based on user preference.  
             - **Live Streaming SDK** : B2B Live Streaming Platform SDK.   
-              It provided UI and Live Streaming functions like donation, chat, multiple guests streaming, etc.  
+              It provides UI and Live Streaming functions like donation, chat, multiple guests streaming, etc.  
               I built the Android SDK from base by alone.  
               Main concerns was to support many devices as possible with stability.  
               Optimized the memory usage and the logic for lower latency.  
@@ -115,19 +121,20 @@ projects:
     assignments:
       - title: The Optimization of Stable Diffusion based on the Mobile
         link: "assets/res/Optimization_Stable_Diffusion_Mobile.pdf"
-        tagline: Porting Stable Diffusion V2.1 written with PyTorch to OpenCL with Android NDK C++ from base.   
-          Applied optimizations appropriate with mobile SoC enviroment.  
-          Target device was S21 Exynos 2100 with Mali-G78 M14.  
-          Without quantization, FP32 model has about 5.2 GB.  
-          To solve memory issues, divided the model into parts with about 1 GB.  
-          Resolved Memory shortage due to Residual mapping of U-Net.  
-          Optimized with reduction, usage of local & register memory and im2win 2D convolution.  
+        tagline: Porting Stable Diffusion V2.1 written with PyTorch to OpenCL with Android NDK C++ from bottom.   
+          Applied optimizations tailored to the mobile SoC environment.  
+          Target device was Samsung Galaxy S21 Exynos 2100 with Mali-G78 M14.  
+          The original FP32 model size was approximately 5.2 GB without quantization.  
+          Solved memory issues related to the U-Net’s residual mapping.  
+          Optimized inference through vectorization, tiling, reduction, register utilization, and im2win 2D convolution.
+          Reduced Text Encoder latency from approximately 2.6 seconds (PyTorch Lite) to about 0.9 seconds (OpenCL).
+          Continuously optimizing inference performance to surpass PyTorch Lite, aiming to achieve efficient mobile stable diffusion.
           <a href="https://github.com/9Hyeonwoo/mobile-stable-diffusion" target="_blank">github repository</a>
 
       - title: TennisTime
         link: "https://tennistime.me"
         tagline: "Provided an easy and convenient way to check and make the reservations in my university.  
-        To run in free-tier instance with 1 GB memory, optimized resource usage.  
+        To run in free-tier instance with 1 GB DRAM memory, optimized resource usage.  
         Based on Spring-Boot with Reactor and Mongo-DB.  
         Having about 700 active users with about 10,000 visits per a month."
 
